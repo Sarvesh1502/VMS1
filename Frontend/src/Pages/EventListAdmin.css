@@ -1,0 +1,66 @@
+/* Container */
+.event-list-admin-container {
+    margin-left: 125px; 
+    padding: 20px;
+    background-color: #000000;
+    height: 100vh;
+    overflow-y: auto;
+    color: #333; 
+  }
+  
+  
+  .event-list-admin-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+ 
+  .event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+
+  .event-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .event-info {
+    margin-bottom: 15px;
+  }
+  
+  
+  .event-stats {
+    margin-bottom: 20px;
+  }
+  
+  .event-stats p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: #28a745; 
+    border-radius: 5px;
+    transition: width 0.5s ease;
+  }
+  

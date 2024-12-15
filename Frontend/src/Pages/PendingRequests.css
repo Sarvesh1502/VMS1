@@ -1,0 +1,115 @@
+
+.event-list-container {
+    margin-left: 125px; 
+    padding: 20px;
+    background-color: #000000; 
+    min-height: 100vh;
+  }
+  
+  .event-list-title {
+    font-size: 1.8rem;
+    color: #2c3e50; 
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+
+  .event-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .event-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #2c3e50; 
+  }
+  
+  .event-header:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .event-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .event-date {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+
+  .event-details {
+    padding: 15px 20px;
+    border-top: 1px solid #ddd;
+    background-color: #fafafa;
+    color: #34495e; 
+  }
+  
+  .request-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .request-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .request-item:last-child {
+    border-bottom: none;
+  }
+  
+  .request-name {
+    font-size: 1rem;
+    color: #2c3e50;
+  }
+  
+  .request-actions button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .approve-btn {
+    background-color: #27ae60; 
+    color: #fff;
+    margin-right: 5px;
+  }
+  
+  .approve-btn:hover {
+    background-color: #229954;
+  }
+  
+  .deny-btn {
+    background-color: #c0392b;
+    color: #fff;
+  }
+  
+  .deny-btn:hover {
+    background-color: #a93226;
+  }
+  
+  

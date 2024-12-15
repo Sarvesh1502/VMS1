@@ -1,0 +1,103 @@
+* Background Gradient */
+body {
+    background: linear-gradient(135deg, #6dabe4, #eac1f3);
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Floating shapes in background */
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.4;
+    animation: float 5s ease-in-out infinite;
+}
+
+.shape-small {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    bottom: 20%;
+    left: 10%;
+    animation-duration: 7s;
+}
+
+.shape-medium {
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    top: 30%;
+    right: 15%;
+    animation-duration: 9s;
+}
+
+.shape-large {
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.2);
+    top: 20%;
+    left: 5%;
+    animation-duration: 11s;
+}
+
+/* Floating animation for background shapes */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+/* Jumbotron Animations */
+.jumbotron {
+    position: relative;
+    padding: 5rem;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+/* Card Styling */
+.reason-card {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* Card hover effect */
+.reason-card:hover {
+    transform: scale(1.05);
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #6dabe4;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #5d9dcf;
+}
+
+/* Icon animation */
+.icon-bounce {
+    font-size: 2.5rem;
+    color: #6dabe4;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* Text animation */
+.text-slide-in {
+    animation: slideIn 1s ease forwards;
+    opacity: 0;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-20px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
